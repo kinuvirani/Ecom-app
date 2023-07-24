@@ -1,0 +1,95 @@
+.form{
+    padding-left: 160px;
+}
+.inner-addon {
+    position: relative;
+}
+.faa{
+    margin-left: 460px;
+    color:black;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size:20px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    padding: 10px;
+    pointer-events: auto;
+}
+/* style icon */
+.inner-addon .faa {
+    position: absolute;
+    padding: 10px;
+    pointer-events: auto;
+}
+.a:hover{
+    background-color: #007bff;
+    color: white;
+}
+.fa2{
+    margin-left: -4px;
+    margin-top: -14px;
+    color: #f1f1f1;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size:32px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    padding: 10px;
+    pointer-events: auto;
+}
+
+.nav {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin: auto;
+    width: 75%;
+}
+.badge-secondary1 {
+    color: #fff;
+    background-color: #FF0000;
+}
+.badge1 {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 41%;
+    font-weight: 900;
+    margin-top:20px ;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s
+}
+.bdg1{
+    position: absolute;
+    left: 29px;
+    top: 7px;
+    text-align: center;
+    border-radius: 7px;
+    width: 18px;
+    height: 18px;
+    background-color: #ff6161;
+    border: 1px solid #fff;
+    font-weight: 400;
+    color: #f0f0f0;
+    line-height: 16px;
+    font-size: 12px;
+}
+.searchResult {
+    position: absolute;
+    width: 90%;
+    background-color: bisque;
+    z-index: 2;
+    margin-top: 6px;
+    color: midnightblue;
+    margin-left: 11px;
+}
+

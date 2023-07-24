@@ -1,0 +1,88 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height:72%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    margin-top: 140px;
+    margin-left: 210px;
+    padding-top: 20px;
+    box-shadow: 8px 8px 2px 1px  #f1f1f1;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #007bff;
+}
+
+.main {
+    margin-left: 210px;
+    font-size: 18px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.welcome{
+    margin-left: 69px;
+    margin-top: -37px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.orderDetail{
+    margin-top: 40px;
+    padding-left: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.fa1{
+    margin-left: -20px;
+    color: #007bff;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size:20px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    padding: 10px;
+    pointer-events: auto;
+}
+.mainContent{
+    padding: 8px 10px 8px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+.marg{
+    padding: 5px;
+}
+.content{
+   padding: 10px 400px;
+    margin-top: 40px;
+}
+legend{
+    font-weight: bolder;
+    font-size: 20px;
+}

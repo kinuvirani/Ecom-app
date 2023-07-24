@@ -1,0 +1,24 @@
+.cng{
+    margin: 0px 150px;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.errorMsgs {
+    color: #cc0000;
+    margin-top:-4px;
+    font-size: smaller;
+}
+
+.togle {
+    background: none;
+    border: none;
+    color: #337ab7;
+    font-weight: 600;
+    position: absolute;
+    right: 27px;
+    top: 10px;
+    z-index: 9;
+}

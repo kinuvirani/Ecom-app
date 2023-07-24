@@ -1,0 +1,104 @@
+body .popover {
+    max-width: 830px;
+}
+
+.img-thumbnail:hover {
+    border: 3px solid #007bff;
+}
+
+.cart-btn{
+    width:200px;
+    height:60px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.fa3{
+    margin-left: -37px;
+    margin-top: -7px;
+    color:#34BB59;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size:20px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    padding: 10px;
+    pointer-events: auto;
+}
+.img-max{
+    max-width: 90%;
+}
+._39LH-M {
+    margin-top: 24px;
+    border: 1px solid #f0f0f0;
+    border-radius: 2px;
+}
+._39LH-M  ._1B7BXc {
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+._39LH-M ._1B7BXc ._3unCI7 {
+    font-weight: 500;
+    font-size: 24px;
+    padding: 24px 0 0 24px;
+}
+._39LH-M ._1B7BXc ._36nEq1 {
+    text-align: right;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+._39LH-M ._1B7BXc ._36nEq1 ._2XOAEz {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.26);
+    border: none;
+    font-size: 14px;
+    color: #212121;
+    padding: 16px 36px;
+    cursor: pointer;
+    margin: 18px 18px 30px 0;
+}
+._2AkmmA {
+    display: inline-block;
+    border-radius: 2px;
+    color: #212121;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: box-shadow .2s ease;
+    vertical-align: super;
+    background: #fff;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+    border: 1px solid #e0e0e0;
+}
+
+.rating-line{
+    height: 7px;
+    border-radius: 2px;
+    margin-top: 8px;
+    margin-left: -20px;
+}
+.rate{
+    font-size: 12px;
+    font-weight: 500;
+    color: #212121;
+}
+.rate-user{
+    margin-left: -58px;
+}
