@@ -22,7 +22,7 @@ import Order from "../cart/order";
 import { Rate, Popover } from "antd";
 import { Modal, ModalBody, Progress } from "reactstrap";
 import Login from "../login/login";
-import Button from "react-bootstrap/es/Button";
+import { Button } from "react-bootstrap";
 const desc = ["terrible", "bad", "normal", "good", "wonderful"];
 
 let prary = [];
@@ -160,20 +160,20 @@ class ProductDetail extends React.Component {
           <div className="col-md-0">
             {image && image !== null
               ? image.map((d, key) => {
-                  return (
-                    <div key={key} className="row" style={{ marginTop: "5px" }}>
-                      <a href="#" className="thumbnail">
-                        <img
-                          className="img-thumbnail"
-                          id={d}
-                          onMouseOver={this.handleThumbnail.bind(this)}
-                          onMouseOut={this.handleImage.bind(this)}
-                          src={"http://localhost:8000/img/thumbnails/" + d}
-                        />
-                      </a>
-                    </div>
-                  );
-                })
+                return (
+                  <div key={key} className="row" style={{ marginTop: "5px" }}>
+                    <a href="#" className="thumbnail">
+                      <img
+                        className="img-thumbnail"
+                        id={d}
+                        onMouseOver={this.handleThumbnail.bind(this)}
+                        onMouseOut={this.handleImage.bind(this)}
+                        src={"http://localhost:8000/img/thumbnails/" + d}
+                      />
+                    </a>
+                  </div>
+                );
+              })
               : null}
           </div>
           <div
