@@ -168,7 +168,7 @@ class ProductDetail extends React.Component {
                         id={d}
                         onMouseOver={this.handleThumbnail.bind(this)}
                         onMouseOut={this.handleImage.bind(this)}
-                        src={"http://localhost:8000/img/thumbnails/" + d}
+                        src={"http://99.79.62.126:3030/img/thumbnails/" + d}
                       />
                     </a>
                   </div>
@@ -184,8 +184,8 @@ class ProductDetail extends React.Component {
               className="img-max"
               src={
                 this.state.display && this.state.thumbnail === ""
-                  ? "http://localhost:8000/img/" + img
-                  : "http://localhost:8000/img/" + this.state.thumbnail
+                  ? "http://99.79.62.126:3030/img/" + img
+                  : "http://99.79.62.126:3030/img/" + this.state.thumbnail
               }
               height={"500px"}
               title=""
@@ -402,7 +402,7 @@ class ProductDetail extends React.Component {
                     <img
                       id={v.productId}
                       name={v.subCategoryId}
-                      src={"http://localhost:8000/img/thumbnails/" + img}
+                      src={"http://99.79.62.126:3030/img/thumbnails/" + img}
                       alt=""
                       title={v.productName}
                     />

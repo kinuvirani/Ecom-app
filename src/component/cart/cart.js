@@ -163,7 +163,7 @@ class Cart extends React.Component {
                         onClick={this.viewProductDetail.bind(this)}
                         name={cart.Product.subCategoryId}
                         id={cart.Product.productId}
-                        src={"http://localhost:8000/img/thumbnails/" + img}
+                        src={"http://99.79.62.126:3030/img/thumbnails/" + img}
                         alt=""
                       />
                     </div>
@@ -241,7 +241,7 @@ class Cart extends React.Component {
                       <img
                         onClick={this.viewProductDetail.bind(this)}
                         id={cart1.productId}
-                        src={"http://localhost:8000/img/thumbnails/" + img}
+                        src={"http://99.79.62.126:3030/img/thumbnails/" + img}
                         alt=""
                       />
                     </div>

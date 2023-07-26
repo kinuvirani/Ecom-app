@@ -77,7 +77,7 @@ class View extends React.Component {
                       id={v.productId}
                       name={v.subCategoryId}
                       onClick={this.viewProductDetail.bind(this)}
-                      src={"http://localhost:8000/img/home/" + img}
+                      src={"http://99.79.62.126:3030/img/home/" + img}
                       alt=""
                       title={v.productName}
                     />
