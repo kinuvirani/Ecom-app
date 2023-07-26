@@ -13,7 +13,7 @@ import {
     UpdateSubCategory,
     AddSubCategory
 } from "./actionType";
-import api from '../service/baseSerivice'
+import api from '../service/baseService'
 
 export const viewCategory=()=>{
     return((dispatch)=>{

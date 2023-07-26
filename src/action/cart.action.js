@@ -10,7 +10,7 @@ import {
   LocalCart,
   UserOrder,
 } from "./actionType";
-import api from "../service/baseSerivice";
+import api from "../service/baseService";
 
 export const addProductToCart = (pid) => {
   let id = localStorage.getItem("register_id");
