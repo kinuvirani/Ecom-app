@@ -65,7 +65,7 @@ class Home extends React.Component {
                         id={v.productId}
                         name={v.subCategoryId}
                         onClick={this.viewProductDetail.bind(this)}
-                        src={"http://localhost:8000/img/thumbnails/" + img}
+                        src={"http://99.79.62.126:3030/img/thumbnails/" + img}
                         alt=""
                         title={v.productName}
                       />

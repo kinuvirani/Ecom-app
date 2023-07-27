@@ -164,7 +164,7 @@ class Header extends React.Component {
             )}
 
             <Nav.Link
-              href="http://localhost:3000/cart"
+              href="http://99.79.62.126:3030/cart"
               style={{ color: "white" }}
             >
               Cart

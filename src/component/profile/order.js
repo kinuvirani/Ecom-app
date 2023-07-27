@@ -52,7 +52,8 @@ class Order extends React.Component {
                             <td>
                               <img
                                 src={
-                                  "http://localhost:8000/img/thumbnails/" + img
+                                  "http://99.79.62.126:3030/img/thumbnails/" +
+                                  img
                                 }
                               />
                             </td>
