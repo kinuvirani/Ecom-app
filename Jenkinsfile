@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         IMAGE_NAME = 'vkiran12/flipkart-frontend'
-        TAG = 'testing-v1'
+        TAG = 'v1'
     }
 
     stages {
