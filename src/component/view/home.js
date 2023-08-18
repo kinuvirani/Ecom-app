@@ -48,7 +48,7 @@ class Home extends React.Component {
           }}
         >
           <h4 style={{ marginLeft: "20px", textAlign: "center" }}>
-            Recently added
+            Recently added products
           </h4>
         </div>
         <div className="row">
